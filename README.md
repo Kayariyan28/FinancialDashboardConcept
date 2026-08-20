@@ -35,8 +35,6 @@ Hover a KPI and the definition, prior period, and sparkline arrive in the same c
 
 ---
 
----
-
 ## Why this exists
 
 Most financial dashboards start with a chart library and a spreadsheet. This one started as a **design question**:
@@ -117,6 +115,15 @@ That is product design, not polish. If a tooltip can’t leave, the interface is
 
 This is a **concept**, not a template. Fork it if the honeycomb or the KPI hover pattern is useful. Don’t treat the numbers as advice.
 
+To **rebuild a site of this class** (another product, same interaction quality), load the skill and follow it in order — tokens, KPI hover craft, seeded data, then a honeycomb that actually bins points:
+
+**[`skills/spatial-analytics-platform/SKILL.md`](skills/spatial-analytics-platform/SKILL.md)**
+
+It is written for a designer + an agent: thesis, file map, the hover bug we already paid for, cube / axial-floor / offset-row math, and a paste-ready rebuild prompt. References:
+
+- [`hex-binning.md`](skills/spatial-analytics-platform/references/hex-binning.md) — pixel ↔ axial, cube round, D3 offset
+- [`hover-craft.md`](skills/spatial-analytics-platform/references/hover-craft.md) — why portaled tooltips loop, and the CSS fix
+
 ---
 
 ## View it
@@ -154,6 +161,8 @@ npm run typecheck
 ## Process
 
 Designed and built with [Grok](https://grok.com) as a pair: short briefs, live preview, visual QA, then correction. The interesting work was the back-and-forth — KPI hover that wouldn’t close, a honeycomb that had to match a reference, binning algorithms that had to be *shown*, not described.
+
+The rebuild skill above is that loop, written down so it can be run again on a different brand.
 
 If you are exploring the same loop (product design × generative coding), this repo is a snapshot of what that can look like on a financial surface.
 
