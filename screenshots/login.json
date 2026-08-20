@@ -1,0 +1,35 @@
+{
+  "url": "http://127.0.0.1:8080/login",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Monex",
+      "hasCanvas": false,
+      "bodyTextLen": 163,
+      "bodyTextHash": "f4236b99aea6935b8194d65d5e5ce59f8a9c6e3a15e0daa02c9afabdfd064021",
+      "bodyTextPrefix": "monex Sign in Open your workspace to save views. Sample analytic",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/login.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Monex",
+      "hasCanvas": false,
+      "bodyTextLen": 163,
+      "bodyTextHash": "f4236b99aea6935b8194d65d5e5ce59f8a9c6e3a15e0daa02c9afabdfd064021",
+      "bodyTextPrefix": "monex Sign in Open your workspace to save views. Sample analytic",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/login-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "verdictFile": "/workspace/screenshots/login.json"
+}

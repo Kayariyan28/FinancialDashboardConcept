@@ -1,0 +1,35 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Monex",
+      "hasCanvas": false,
+      "bodyTextLen": 1030,
+      "bodyTextHash": "2aa1b8348d4055cd27f65c9a3aba75c2cfb407039a0260445bb0070dc9fa0a22",
+      "bodyTextPrefix": "monex Dashboard Accounts Cards Analytics MX Account Sign in Fina",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Monex",
+      "hasCanvas": false,
+      "bodyTextLen": 904,
+      "bodyTextHash": "a3824b3cdb9eeaf06cc075c64f79c9d48891c6b7e909200137325b1f55b73a6c",
+      "bodyTextPrefix": "monex MX Financial analytics All Accounts Range Weekly Monthly Y",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

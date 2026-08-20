@@ -1,0 +1,40 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Monex",
+      "hasCanvas": false,
+      "bodyTextLen": 931,
+      "bodyTextHash": "3c41f76646249f7a67ca7485297d02edb3ac21fc7c2ddb71c01a50a1b2c1758f",
+      "bodyTextPrefix": "monex Dashboard Accounts Cards Analytics Financial analytics All",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Monex",
+      "hasCanvas": false,
+      "bodyTextLen": 853,
+      "bodyTextHash": "7dae5a07845d37d1a4a6de0d927a98dd4d9550694c5f53e56f36cc8c7b768053",
+      "bodyTextPrefix": "monex Financial analytics All Accounts Range Weekly Monthly Year",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text replaced (similar length, page start changed)",
+    "mobile: body text replaced (similar length, page start changed)"
+  ]
+}

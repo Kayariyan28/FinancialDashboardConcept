@@ -1,0 +1,35 @@
+{
+  "url": "http://127.0.0.1:8080/dashboard",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Monex",
+      "hasCanvas": false,
+      "bodyTextLen": 598,
+      "bodyTextHash": "44d914224ddf9ca1404bab9584f3774f13beca0ff6ea132557248a15aa765194",
+      "bodyTextPrefix": "monex Dashboard Accounts Cards Analytics MX Account Sign in Dash",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/dashboard.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Monex",
+      "hasCanvas": false,
+      "bodyTextLen": 547,
+      "bodyTextHash": "35e9d280124fc24512359887f9740849c3d342a04da265848913c29bb1ea10f1",
+      "bodyTextPrefix": "monex MX Dashboard 2024 consolidated workspace Open analytics Re",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/dashboard-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "verdictFile": "/workspace/screenshots/dashboard.json"
+}
