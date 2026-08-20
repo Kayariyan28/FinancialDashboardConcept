@@ -10,7 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Kayariyan28/FinancialDashboardConcept">Concept repo</a>
+  <a href="https://karanrevmoney.grok.me"><strong>Live site</strong></a>
+  ·
+  <a href="https://github.com/Kayariyan28/FinancialDashboardConcept">GitHub</a>
   ·
   Dashboard · Analytics · Honeycomb map
 </p>
@@ -96,6 +98,15 @@ That is product design, not polish. If a tooltip can’t leave, the interface is
 | Auth | Optional Better Auth (for the scaffold, not the concept) |
 
 This is a **concept**, not a template. Fork it if the honeycomb or the KPI hover pattern is useful. Don’t treat the numbers as advice.
+
+---
+
+## View it
+
+**Live:** [karanrevmoney.grok.me](https://karanrevmoney.grok.me)  
+**Source:** [github.com/Kayariyan28/FinancialDashboardConcept](https://github.com/Kayariyan28/FinancialDashboardConcept)
+
+Open the live site to hover KPIs, scrub the honeycomb, and switch binning algorithms. No install required.
 
 ---
 
