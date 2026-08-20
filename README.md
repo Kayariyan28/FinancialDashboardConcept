@@ -17,6 +17,24 @@
   Dashboard · Analytics · Honeycomb map
 </p>
 
+<p align="center">
+  <img src="screenshots/readme-dashboard.png" alt="RevMoney dashboard — wordmark, KPI cards, and revenue honeycomb" width="100%" />
+</p>
+
+---
+
+## Interface
+
+The live product is **RevMoney** — hex mark, charcoal chrome, one blue accent. The frames below are the current interface, not the earlier Monex label.
+
+<p align="center">
+  <img src="screenshots/readme-kpi.png" alt="RevMoney revenue KPI hover — definition, prior period, sparkline" width="100%" />
+</p>
+
+Hover a KPI and the definition, prior period, and sparkline arrive in the same card. Leave, and the readout fades — no trapped overlay.
+
+---
+
 ---
 
 ## Why this exists
@@ -64,7 +82,7 @@ Sample data is generated in-app. Nothing here is live banking data; the product 
 ## The honeycomb
 
 <p align="center">
-  <img src="screenshots/hex-cube.png" alt="Cube-rounded revenue honeycomb with Midtown tooltip" width="100%" />
+  <img src="screenshots/readme-honeycomb.png" alt="RevMoney revenue heatmap — cube-rounded honeycomb with Midtown tooltip" width="100%" />
 </p>
 
 Cube rounding is the default nearest-hex test: lift a point into cube coordinates \(q + r + s = 0\), round, then restore the constraint on the axis with the largest error. Equal-area bins, no seams.
@@ -72,7 +90,7 @@ Cube rounding is the default nearest-hex test: lift a point into cube coordinate
 Switch to **Axial floor** and the city outline shears — a designed failure, so the cost of the cheap algorithm is visible. **Offset rows** is the D3 hexbin shortcut: close to cube round, cheaper, with a little odd/even drift.
 
 <p align="center">
-  <img src="screenshots/hex-points.png" alt="Source deals overlaid on the honeycomb" width="100%" />
+  <img src="screenshots/readme-points.png" alt="RevMoney honeycomb with source deals overlaid as points" width="100%" />
 </p>
 
 ---
